@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/send_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/satellite_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="60dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/satellite_description"
+        android:cropToPadding="false"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/satellite_button_image" />
+</RelativeLayout>

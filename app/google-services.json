@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417418434889",
+    "firebase_url": "https://thedronelearners.firebaseio.com",
+    "project_id": "thedronelearners",
+    "storage_bucket": "thedronelearners.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417418434889:android:d833385f6e0c4635b5e298",
+        "android_client_info": {
+          "package_name": "com.thedronelearners.tdl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417418434889-nr1oor3crbmdmk12id6ma268qnsp5i3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYumRr0pMbuAkDvTRDMZ4LfLSvZ-CqTsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417418434889-nr1oor3crbmdmk12id6ma268qnsp5i3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
